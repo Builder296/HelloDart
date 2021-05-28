@@ -7,7 +7,7 @@ main() { // entry point for execution
   /*
   * String
   * Number (integers and doubles)
-  * Boolean
+  * Boolean -1 or 0, true or false
   * lists
   * maps
   * ...
@@ -16,10 +16,21 @@ main() { // entry point for execution
   * doubles do have a decimal point. 1.1,0.2,...
   * */
 
-  num age = 27;
-  double number = 29.99;
+  bool isTrue = true;
+  bool isFalse = false;
 
-  print(number);
+  print(isTrue);
+  print(isFalse);
+
+  
+  
+  
+  
+  
+  // num age = 27;
+  // double number = 29.99;
+  //
+  // print(number);
 
 
 
