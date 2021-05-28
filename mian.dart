@@ -13,7 +13,12 @@ main() { // entry point for execution
   * ...
   * */
 
-  var country = 1.1; // contain type
+  var country = 'Thailand'; // string
 
-  print(country);
+  String name;
+
+  name = 1; // string only
+
+
+  print(name);
 }
