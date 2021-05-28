@@ -14,13 +14,26 @@ main() { // entry point for execution
   *
   * integers are number without a decimal point. 1,2,3,...
   * doubles do have a decimal point. 1.1,0.2,...
+  *
+  * Const and final keywords
+  *
   * */
 
-  bool isTrue = true;
-  bool isFalse = false;
+  var country = "Canada";
+  const pi = 3.14;
+  // pi = 29.34;
 
-  print(isTrue);
-  print(isFalse);
+
+
+
+
+
+
+  // bool isTrue = true;
+  // bool isFalse = false;
+  //
+  // print(isTrue);
+  // print(isFalse);
 
   
   
