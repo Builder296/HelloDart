@@ -13,12 +13,14 @@ main() { // entry point for execution
   * ...
   * */
 
-  var country = 'Thailand'; // string
+  var country;
 
-  String name;
+  String name; // explicit
 
-  name = 1; // string only
+  name = "Builder"; // string only
+  country = "Thailand";
+  country = 27;
 
 
-  print(name);
+  print(country);
 }
