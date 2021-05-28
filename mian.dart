@@ -11,16 +11,28 @@ main() { // entry point for execution
   * lists
   * maps
   * ...
+  *
+  * integers are number without a decimal point. 1,2,3,...
+  * doubles do have a decimal point. 1.1,0.2,...
   * */
 
-  var country;
+  num age = 27;
+  double number = 29.99;
 
-  String name; // explicit
-
-  name = "Builder"; // string only
-  country = "Thailand";
-  country = 27;
+  print(number);
 
 
-  print(country);
+
+
+
+  // var country;
+  //
+  // String name; // explicit
+  //
+  // name = "Builder"; // string only
+  // country = "Thailand";
+  // country = 27;
+  //
+  //
+  // print(country);
 }
