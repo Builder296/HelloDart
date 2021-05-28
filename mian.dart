@@ -16,6 +16,8 @@ main() { // entry point for execution
   * doubles do have a decimal point. 1.1,0.2,...
   *
   * Const and final keywords
+  * const = we use this keyword when we want the value/variable to be constant at compile-time
+  * final - if we want to variable/value to always be constant = never change
   *
   * */
 
