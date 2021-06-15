@@ -21,43 +21,20 @@ main() {
   *
   * */
 
-  // xooooox 5   1 1
-  // xxoooox 4   2 1
-  // xoxooox 3 1 1 1 1
-  // xooxoox 2 2 1 1 1
-  // xoooxox 1 3 1 1 1
-  // xooooxx   4 1 2
-  // xooooox   5 1 1
-
-  // xooox 1     3 1
-  // xxoox 2     2 1
-  // xoxox 1 1 1 1 1
-  // xooxx 1 2     2
-  // xooox 1 3     1
-  const y = 5;
+  const y = 9;
 
   for (int a = 1; a <= y; a++) {
     // row
     var row = "";
-    var maxO = y - 2;
-    var startO = maxO + 1;
     for (int b = 1; b <= y; b++) {
       // column
       if (b == 1 || b == y) {
         row = row + "x";
       } else {
-        if (b <= startO && (a == 1 || a == y)) {
-          row = row + "o";
+        if (a == b) {
+          row = row + "x";
         } else {
-          if (b <= (startO - 1) && (a == y - 1)) {
-            row = row + "o";
-          } else {
-            if (b <= (startO - 2) && (a == y - 2)) {
-              row = row + "o";
-            } else {
-              row = row + "x";
-            }
-          }
+          row = row + "o";
         }
       }
     }
