@@ -21,29 +21,12 @@ main() {
   *
   * */
 
-  const y = 9;
-
-  for (int a = 1; a <= y; a++) {
-    // row
-    var row = "";
-    for (int b = 1; b <= y; b++) {
-      // column
-      if (b == 1 || b == y) {
-        row = row + "x";
-      } else {
-        if (a == b) {
-          row = row + "x";
-        } else {
-          row = row + "o";
-        }
-      }
-    }
-    print(row);
-  }
-
-  // var country = "Canada";
-  // const pi = 3.14;
+  var country = "Canada";
+  const pi = 3.14;
   // pi = 29.34;
+
+
+
 
   // bool isTrue = true;
   // bool isFalse = false;
@@ -51,10 +34,17 @@ main() {
   // print(isTrue);
   // print(isFalse);
 
+
+
+
   // num age = 27;
   // double number = 29.99;
   //
   // print(number);
+
+
+
+
 
   // var country;
   //
